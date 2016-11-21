@@ -17,7 +17,7 @@
   ],
   "require": {
     "psr/log": "^1.0.0",
-    "sphring/sphring": "^0.12",
+    "sphring/sphring": "dev-master",
     "filp/whoops": "^2.1",
     "symfony/yaml": "^2.5",
     "monolog/monolog": "^1.13"
@@ -32,5 +32,11 @@
   },
   "suggest": {
     "predis/predis": "Let's you have a redis conection for RedisConnector"
-  }
+  },
+  "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/fdhex/sphring"
+        }
+    ]
 }
